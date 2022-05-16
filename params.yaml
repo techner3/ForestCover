@@ -1,0 +1,44 @@
+logging:
+  training: 
+    dir: logs/training
+    data_validation: validationTrainData.txt
+    train : modelTraining.txt
+    preprocess : preprocessingTrainData.txt
+  prediction: 
+    dir: logs/prediction
+    data_validation: dataValidationPrediction.txt
+    preprocess : preprocessingPredictData.txt
+    predict : predictionData.txt
+
+nullValues:
+  dir: data/nullValues
+  file : nullValues.csv
+
+target : class
+
+plots : 
+  dir: savedPlots
+  kmeans : KMeans_ElbowPlot.PNG
+
+models:
+  dir : savedModels
+  scalar : Scalar.sav
+  clustering: Kmeans.sav
+  modelName : best_model
+
+directories: 
+  validatedFiles: 
+    training : data/validatedTrainingRawFiles
+    prediction : data/validatedPredictionRawFiles
+  rawGood: GoodRaw
+  rawBad: BadRaw
+
+schema:
+  dir : schema
+  dropFile : dropFile
+  training: schema_training.json
+  prediction: schema_prediction.json
+
+db:
+  train : src/TrainingDB
+  predict : src/PredictionFilesDB

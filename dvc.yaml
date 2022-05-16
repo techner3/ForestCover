@@ -1,0 +1,24 @@
+stages:
+  trainvalidation:
+    cmd: python src/validationTrainData.py
+    deps:
+    - data_given/train/
+    - src/validationTrainData.py
+    outs:
+    - data/validatedTrainingRawFiles/
+    - src/TrainingDB/train.db
+
+  trainPreprocessing:
+    cmd: python src/preprocessingTrainData.py
+    deps:
+    - src/TrainingDB/train.db
+    - data/validatedTrainingRawFiles/
+    - src/preprocessingTrainData.py
+    outs:
+    - src/TrainingDB/processedtrain.db 
+
+  training:
+    cmd: python src/modelTraining.py
+    deps:
+    - src/TrainingDB/processedtrain.db
+    - src/modelTraining.py 
