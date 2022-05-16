@@ -36,6 +36,7 @@ class predictClass:
     def predictData(self,data):
 
         self.no=data['Cluster'].unique()
+        self.df=pd.DataFrame(columns=data.drop(labels=["Cluster"],axis=1).columns)
         self.list=[]
         file=open(os.path.join(self.config["logging"]["prediction"]["dir"],self.config["logging"]["prediction"]["predict"]),'a+')
         self.logger.log(file,'Prediction of Data Started')
@@ -45,11 +46,16 @@ class predictClass:
                 cluster_data= data[data['Cluster']==i]
                 cluster_data = cluster_data.drop(['Cluster'],axis=1)
                 result=self.predictForACluster(cluster_data,i,file)
-                #cluster_data['class']=result
-                self.list.append(result)
+                self.df=self.df.append(cluster_data)
+                for i in result :
+                    self.list.append(i)
+            self.df["class"]=self.list
+            self.df["class"] = self.df["class"].map(
+            { 0:"Lodgepole_Pine",  1: "Spruce_Fir",  2: "Douglas_fir",3: "Krummholz", 4: "Ponderosa_Pine", 5: "Aspen",
+             6: "Cottonwood_Willow"})
             self.logger.log(file,'Prediction of Data completed')
             self.file.close()
-            return self.list
+            return self.df
 
         except Exception as e:
             file=open(os.path.join(self.config["logging"]["prediction"]["dir"],self.config["logging"]["prediction"]["predict"]),'a+')

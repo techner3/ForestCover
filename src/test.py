@@ -12,12 +12,11 @@ predict=predictClass()
 
 #prediction
 data=pd.read_csv(path_predict)
-print(len(data.columns))
 bool=predictValid.validatePredictData(data)
 if bool:
     X=preprocessPredict.preprocess(data)
     result=predict.predictData(X)
-    print(result)
+    result.to_csv("test.csv")
 else:
     print("validation failed")
 print("done")

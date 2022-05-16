@@ -1,0 +1,90 @@
+[2022-05-16 15:58:34] :  Succesfully loaded the model
+[2022-05-16 15:58:34] :  Succesfully loaded the model
+[2022-05-16 15:58:34] :  Prediction of Data Started
+[2022-05-16 15:58:34] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 15:58:34] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 15:58:34] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 15:58:34] :  Prediction of Data completed
+[2022-05-16 15:58:34] :  Succesfully loaded the model
+[2022-05-16 15:59:54] :  Succesfully loaded the model
+[2022-05-16 15:59:54] :  Succesfully loaded the model
+[2022-05-16 15:59:54] :  Prediction of Data Started
+[2022-05-16 15:59:54] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 15:59:54] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 15:59:54] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 15:59:54] :  Prediction of Data completed
+[2022-05-16 15:59:54] :  Succesfully loaded the model
+[2022-05-16 16:13:22] :  Succesfully loaded the model
+[2022-05-16 16:13:22] :  Succesfully loaded the model
+[2022-05-16 16:13:22] :  Prediction of Data Started
+[2022-05-16 16:13:22] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 16:13:22] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 16:13:22] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 16:13:22] :  Prediction of Data completed
+[2022-05-16 16:13:22] :  Succesfully loaded the model
+[2022-05-16 16:18:43] :  Exception Occured while predicting. Exception message:  operands could not be broadcast together with shapes (0,) (55,) 
+[2022-05-16 16:18:43] :  Succesfully loaded the model
+[2022-05-16 16:18:43] :  Prediction of Data Started
+[2022-05-16 16:18:43] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 16:20:18] :  Succesfully loaded the model
+[2022-05-16 16:20:18] :  Exception Occured while predicting. Exception message:  'NoneType' object has no attribute 'extend'
+[2022-05-16 16:20:18] :  Succesfully loaded the model
+[2022-05-16 16:20:18] :  Prediction of Data Started
+[2022-05-16 16:20:18] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 16:20:18] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 16:55:41] :  Succesfully loaded the model
+[2022-05-16 16:55:41] :  Succesfully loaded the model
+[2022-05-16 16:55:41] :  Prediction of Data Started
+[2022-05-16 16:55:41] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 16:55:41] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 16:55:42] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 16:55:42] :  Prediction of Data completed
+[2022-05-16 16:55:41] :  Succesfully loaded the model
+[2022-05-16 17:00:49] :  Succesfully loaded the model
+[2022-05-16 17:00:49] :  Succesfully loaded the model
+[2022-05-16 17:00:49] :  Prediction of Data Started
+[2022-05-16 17:00:49] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:00:49] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:00:49] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:00:49] :  Prediction of Data completed
+[2022-05-16 17:00:49] :  Succesfully loaded the model
+[2022-05-16 17:01:57] :  Succesfully loaded the model
+[2022-05-16 17:01:57] :  Succesfully loaded the model
+[2022-05-16 17:01:57] :  Prediction of Data Started
+[2022-05-16 17:01:57] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:01:57] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:01:57] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:01:57] :  Prediction of Data completed
+[2022-05-16 17:01:57] :  Succesfully loaded the model
+[2022-05-16 17:03:05] :  Succesfully loaded the model
+[2022-05-16 17:03:05] :  Succesfully loaded the model
+[2022-05-16 17:03:05] :  Prediction of Data Started
+[2022-05-16 17:03:05] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:03:05] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:03:06] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:03:06] :  Prediction of Data completed
+[2022-05-16 17:03:05] :  Succesfully loaded the model
+[2022-05-16 17:10:57] :  Succesfully loaded the model
+[2022-05-16 17:10:57] :  Succesfully loaded the model
+[2022-05-16 17:10:57] :  Prediction of Data Started
+[2022-05-16 17:10:57] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:10:57] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:10:57] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:10:57] :  Prediction of Data completed
+[2022-05-16 17:10:57] :  Succesfully loaded the model
+[2022-05-16 17:14:53] :  Succesfully loaded the model
+[2022-05-16 17:14:53] :  Succesfully loaded the model
+[2022-05-16 17:14:53] :  Prediction of Data Started
+[2022-05-16 17:14:53] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:14:53] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:14:53] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:14:53] :  Prediction of Data completed
+[2022-05-16 17:14:53] :  Succesfully loaded the model
+[2022-05-16 17:15:19] :  Succesfully loaded the model
+[2022-05-16 17:15:19] :  Succesfully loaded the model
+[2022-05-16 17:15:19] :  Prediction of Data Started
+[2022-05-16 17:15:19] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 17:15:20] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 17:15:20] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 17:15:20] :  Prediction of Data completed
+[2022-05-16 17:15:20] :  Succesfully loaded the model
