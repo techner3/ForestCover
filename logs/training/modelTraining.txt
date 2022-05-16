@@ -1,0 +1,25 @@
+[2022-05-16 14:55:09] :  makeConnection :: Established connection successfully for processedtrain
+[2022-05-16 14:55:18] :  retrieveDBdata :: Data retrieved from DB
+[2022-05-16 14:55:18] :  >>>>>>Training Started<<<<<<
+[2022-05-16 14:55:18] :  Setting up an experiment to find the best model
+[2022-05-16 15:13:33] :  Found the best model for Cluster 0
+[2022-05-16 15:13:44] :  Tuning the best model for Cluster 0
+[2022-05-16 15:13:48] :  Finalizing the best model for Cluster 0
+[2022-05-16 15:13:48] :  Succesfully saved the model
+[2022-05-16 15:13:48] :  Succesfully saved the best_model's params
+[2022-05-16 15:13:48] :  Best model found for cluster 0
+[2022-05-16 15:13:48] :  Setting up an experiment to find the best model
+[2022-05-16 15:18:37] :  Found the best model for Cluster 1
+[2022-05-16 15:18:43] :  Tuning the best model for Cluster 1
+[2022-05-16 15:18:46] :  Finalizing the best model for Cluster 1
+[2022-05-16 15:18:46] :  Succesfully saved the model
+[2022-05-16 15:18:46] :  Succesfully saved the best_model's params
+[2022-05-16 15:18:46] :  Best model found for cluster 1
+[2022-05-16 15:18:46] :  Setting up an experiment to find the best model
+[2022-05-16 15:30:14] :  Found the best model for Cluster 2
+[2022-05-16 15:30:23] :  Tuning the best model for Cluster 2
+[2022-05-16 15:30:28] :  Finalizing the best model for Cluster 2
+[2022-05-16 15:30:28] :  Succesfully saved the model
+[2022-05-16 15:30:28] :  Succesfully saved the best_model's params
+[2022-05-16 15:30:28] :  Best model found for cluster 2
+[2022-05-16 15:30:28] :  >>>>>>Training Completed<<<<<<

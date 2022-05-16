@@ -1,0 +1,29 @@
+[2022-05-16 14:52:56] :  makeConnection :: Established connection successfully for train
+[2022-05-16 14:52:59] :  retrieveDBdata :: Data retrieved from DB
+[2022-05-16 14:52:59] :  Preproccesing of training data started
+[2022-05-16 14:52:59] :  Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+[2022-05-16 14:52:59] :  Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+[2022-05-16 14:52:59] :  Entered the remove_columns method of the Preprocessor class
+[2022-05-16 14:53:00] :  Column removal Successful.Exited the remove_columns method of the Preprocessor class
+[2022-05-16 14:53:00] :  Dropped columns With Zero Standard Deviation
+[2022-05-16 14:53:00] :  Entered the is_null_present method of the Preprocessor class
+[2022-05-16 14:53:00] :  Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+[2022-05-16 14:53:00] :  No Null Values found in columns
+[2022-05-16 14:53:00] :  Encoded categorical Values
+[2022-05-16 14:53:00] :  Entered the separate_label_feature method of the Preprocessor class
+[2022-05-16 14:53:00] :  Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+[2022-05-16 14:53:02] :  Handled imbalance Dataset
+[2022-05-16 14:53:02] :  Entered the elbow_plot method of the KMeansClustering class
+[2022-05-16 14:54:33] :  The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+[2022-05-16 14:54:33] :  Entered the create_clusters method of the KMeansClustering class
+[2022-05-16 14:54:37] :  Succesfully saved the model Kmeans.sav
+[2022-05-16 14:54:37] :  Succesfully saved the Kmeans.sav's params
+[2022-05-16 14:54:37] :  Succesfully created 3 clusters. Exited the create_clusters method of the KMeansClustering class
+[2022-05-16 14:54:37] :  Scaling of training data has been completed successfully
+[2022-05-16 14:54:37] :  ingestionDB :: Train Data ingestion into DB started
+[2022-05-16 14:54:37] :  makeConnection :: Established connection successfully for processedtrain
+[2022-05-16 14:55:00] :  insertDBdata :: DB created
+[2022-05-16 14:55:00] :  ingestionTrainDB :: Train Data ingestion into DB completed
+[2022-05-16 14:55:00] :  Preproccesing of data completed
+[2022-05-16 14:54:37] :  Cluster Created successfully
+[2022-05-16 14:54:37] :  Succesfully saved the model Scalar.sav

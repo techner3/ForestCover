@@ -1,0 +1,47 @@
+[2022-05-16 14:52:38] :  Validation of Training data started
+[2022-05-16 14:52:38] :  LengthOfDateStampInFile:8  LengthOfTimeStampInFile:6  NumberofColumns:52
+[2022-05-16 14:52:38] :  Good and Bad Directories created
+[2022-05-16 14:52:38] :  Invalid File Name!! File moved to Bad Raw Folder :: .gitignore
+[2022-05-16 14:52:38] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011991_120211.csv
+[2022-05-16 14:52:38] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011991_120211.csv.dvc
+[2022-05-16 14:52:38] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011992_120212.csv
+[2022-05-16 14:52:38] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011992_120212.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011993_120213.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011993_120213.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011994_120214.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011994_120214.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011995_120215.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011995_120215.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011996_120216.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011996_120216.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011997_120217.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011997_120217.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011998_120218.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011998_120218.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28011999_120219.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011999_120219.csv.dvc
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011999_120259.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28011999_120259.csv.dvc
+[2022-05-16 14:52:39] :  Valid File name!! File moved to GoodRaw Folder :: forest_cover_28012000_120220.csv
+[2022-05-16 14:52:39] :  Number of Columns Mismatch!! File moved to Bad Raw Folder :: forest_cover_28012000_120220.csv.dvc
+[2022-05-16 14:52:39] :  Validation of file completed
+[2022-05-16 14:52:39] :  Missing Values Validation Started for rawGoodfiles
+[2022-05-16 14:52:47] :  Training data obtained
+[2022-05-16 14:52:39] :  Validation of missing values for whole column completed
+[2022-05-16 14:52:39] :  Training data Validation Completed
+[2022-05-16 14:52:39] :  Training Data Ingestion started locally
+[2022-05-16 14:52:39] :  forest_cover_28011991_120211.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011992_120212.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011993_120213.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011994_120214.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011995_120215.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011996_120216.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011997_120217.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011998_120218.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28011999_120219.csv data retrieved
+[2022-05-16 14:52:40] :  forest_cover_28012000_120220.csv data retrieved
+[2022-05-16 14:52:40] :  Training Data Ingestion locally completed
+[2022-05-16 14:52:40] :  ingestionDB :: Train Data ingestion into DB started
+[2022-05-16 14:52:40] :  makeConnection :: Established connection successfully for train
+[2022-05-16 14:52:47] :  insertDBdata :: DB created
+[2022-05-16 14:52:47] :  ingestionTrainDB :: Train Data ingestion into DB completed
