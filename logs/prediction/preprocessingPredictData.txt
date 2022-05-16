@@ -22,3 +22,19 @@
 [2022-05-16 18:13:14] :  Kmeans model loaded succesfully
 [2022-05-16 18:13:14] :  Cluster No predicted successfully
 [2022-05-16 18:13:14] :  Scalar model loaded succesfully
+[2022-05-16 19:34:41] :  Preproccesing of prediction data started
+[2022-05-16 19:34:41] :  Entered the is_null_present method of the Preprocessor class
+[2022-05-16 19:34:41] :  Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+[2022-05-16 19:34:41] :  Scaling of prediction data has been completed successfully
+[2022-05-16 19:34:41] :  No Null Values found in columns
+[2022-05-16 19:34:41] :  Kmeans model loaded succesfully
+[2022-05-16 19:34:41] :  Cluster No predicted successfully
+[2022-05-16 19:34:41] :  Scalar model loaded succesfully
+[2022-05-16 20:27:09] :  Preproccesing of prediction data started
+[2022-05-16 20:27:09] :  Entered the is_null_present method of the Preprocessor class
+[2022-05-16 20:27:09] :  Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+[2022-05-16 20:27:09] :  Scaling of prediction data has been completed successfully
+[2022-05-16 20:27:09] :  No Null Values found in columns
+[2022-05-16 20:27:09] :  Kmeans model loaded succesfully
+[2022-05-16 20:27:09] :  Cluster No predicted successfully
+[2022-05-16 20:27:09] :  Scalar model loaded succesfully

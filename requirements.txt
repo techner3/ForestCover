@@ -1,16 +1,11 @@
-jupyterlab
 pandas
-numpy
 scikit-learn
 flask
 pandas-profiling
 ipywidgets
-seaborn
-matplotlib
 dvc
 flask
 mlflow
 pycaret
 kneed
-db-sqlite3
 SQLAlchemy

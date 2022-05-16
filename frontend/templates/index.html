@@ -175,7 +175,7 @@
 					type: "POST",
 					data: {filepath:path},
 					success: function(response){
-						$(".json-result").html('<p>"Prediction File created at !!!Prediction_Output_File/Predictions.csvand few of the predictions are"</p><pre>' + response + '</pre>');	
+						$(".json-result").html('<p>Prediction Results :  </p><pre>' + response + '</pre>');	
 						$('#loading').hide();
 					}
 				});
