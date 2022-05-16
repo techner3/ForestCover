@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Bala/Projects/ForestCover/mlruns/1/7a7e663eca7844c3a2ad58d81e339404/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 7a7e663eca7844c3a2ad58d81e339404
+run_uuid: 7a7e663eca7844c3a2ad58d81e339404
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1652693142853
+status: 1
+tags: []
+user_id: Bala
