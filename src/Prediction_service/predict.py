@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 from pycaret.classification import *
-from customLogger import LoggingObject
-from utils.config import read_params
-from ModelOperations.modelOps import modelOperations
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
+from src.ModelOperations.modelOps import modelOperations
 
 class predictClass:
 

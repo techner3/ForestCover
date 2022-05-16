@@ -1,8 +1,8 @@
 import os
-from customLogger import LoggingObject
-from utils.config import read_params
-from Data_ingestion.dataIngestion import ingestion
-from Prediction_rawData_validation.predictDataValidation import predictDataValidationClass
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
+from src.Data_ingestion.dataIngestion import ingestion
+from src.Prediction_rawData_validation.predictDataValidation import predictDataValidationClass
 
 class predictDataValidation:
 

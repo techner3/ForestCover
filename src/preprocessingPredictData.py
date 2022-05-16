@@ -1,10 +1,10 @@
 import os
 import json
-from customLogger import LoggingObject
-from utils.config import read_params
-from customException import noValue
-from ModelOperations.modelOps import modelOperations
-from PredictionData_transformation.predictDataTransform import preprocessPredictData
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
+from src.customException import noValue
+from src.ModelOperations.modelOps import modelOperations
+from src.PredictionData_transformation.predictDataTransform import preprocessPredictData
 
 class preproceesingPredictDataclass:
 

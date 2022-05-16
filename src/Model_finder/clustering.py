@@ -1,11 +1,11 @@
 import os
 import pandas as pd
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from kneed import KneeLocator
-from ModelOperations.modelOps import modelOperations
+from src.ModelOperations.modelOps import modelOperations
 
 class findCluster:
 

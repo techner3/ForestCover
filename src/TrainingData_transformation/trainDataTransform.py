@@ -4,9 +4,9 @@ import numpy as np
 from sklearn.impute import KNNImputer
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
-from ModelOperations.modelOps import modelOperations
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.ModelOperations.modelOps import modelOperations
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 
 class preprocessTrainData:
 

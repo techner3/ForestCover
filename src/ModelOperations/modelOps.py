@@ -2,8 +2,8 @@ import pickle
 import os 
 import json
 from pycaret.classification import *
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 
 class modelOperations:
 

@@ -3,8 +3,8 @@ import shutil
 import pandas as pd
 import re
 import json
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 
 class trainDataValidationClass:
 

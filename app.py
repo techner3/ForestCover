@@ -1,11 +1,11 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 from flask_cors import  cross_origin
 import os
 import pandas as pd 
 import numpy as np
 from src.validationPredictData import predictDataValidation
 from src.preprocessingPredictData import preproceesingPredictDataclass
-from prediction_service.predict import predictClass
+from src.Prediction_service.predict import predictClass
 
 
 webapp_root = "frontend"
@@ -27,15 +27,17 @@ def predictRouteClient():
         if request.form is not None: 
             if ".csv" in request.form['filepath']: 
                 data = pd.read_csv(request.form['filepath'])
-                validate=predictDataValidation()
-                if validate.validatePredictData(data) :
-                    preprocess=preproceesingPredictDataclass()
-                    predict=predictClass()
-                    data=preprocess.preprocess(data)
-                    result=predict.predictData(data)
-                    return result
+                predictValid=predictDataValidation()
+                preprocessPredict=preproceesingPredictDataclass()
+                predict=predictClass()
+                bool=predictValid.validatePredictData(data)
+                if bool:
+                    X=preprocessPredict.preprocess(data)
+                    result=predict.predictData(X)
+                    result.to_csv("predict.csv")
+                    return send_file('predict.csv',attachment_filename= 'predict.csv',as_attachment = True)
                 else:
-                    pass
+                    print("validation failed")
             else: 
                 pass
         else:

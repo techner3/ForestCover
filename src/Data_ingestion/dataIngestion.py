@@ -1,8 +1,8 @@
 import os
 import pandas as pd
-from DBOperations.DBfileops import DBops
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.DBOperations.DBfileops import DBops
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 
 class ingestion:
 

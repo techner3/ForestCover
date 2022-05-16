@@ -1,9 +1,9 @@
 import os
 import pandas as pd 
 import numpy as np
-from ModelOperations.modelOps import modelOperations
-from customLogger import LoggingObject
-from utils.config import read_params
+from src.ModelOperations.modelOps import modelOperations
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
 
 class preprocessPredictData:
 

@@ -1,11 +1,11 @@
 import os
 import json
-from customLogger import LoggingObject
-from utils.config import read_params
-from Model_finder import clustering
-from DBOperations.DBfileops import DBops
-from Data_ingestion.dataIngestion import ingestion
-from TrainingData_transformation.trainDataTransform import preprocessTrainData
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
+from src.Model_finder import clustering
+from src.DBOperations.DBfileops import DBops
+from src.Data_ingestion.dataIngestion import ingestion
+from src.TrainingData_transformation.trainDataTransform import preprocessTrainData
 
 
 class preproceesingTrainDataclass:

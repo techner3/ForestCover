@@ -1,8 +1,8 @@
 import os
-from Model_finder import modelFinder
-from customLogger import LoggingObject
-from DBOperations.DBfileops import DBops
-from utils.config import read_params
+from src.Model_finder import modelFinder
+from src.customLogger import LoggingObject
+from src.DBOperations.DBfileops import DBops
+from src.utils.config import read_params
 
 class Model:
 

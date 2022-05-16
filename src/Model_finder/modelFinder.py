@@ -1,8 +1,8 @@
 from pycaret.classification import *
 import os
-from customLogger import LoggingObject
-from utils.config import read_params
-from ModelOperations.modelOps import modelOperations
+from src.customLogger import LoggingObject
+from src.utils.config import read_params
+from src.ModelOperations.modelOps import modelOperations
 
 class findBestModel:
 

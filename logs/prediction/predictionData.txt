@@ -6,3 +6,19 @@
 [2022-05-16 17:21:01] :  Prediction for  Cluster1 completed successfully
 [2022-05-16 17:21:01] :  Prediction of Data completed
 [2022-05-16 17:21:00] :  Succesfully loaded the model
+[2022-05-16 18:12:38] :  Succesfully loaded the model
+[2022-05-16 18:12:38] :  Succesfully loaded the model
+[2022-05-16 18:12:38] :  Prediction of Data Started
+[2022-05-16 18:12:38] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 18:12:38] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 18:12:38] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 18:12:38] :  Prediction of Data completed
+[2022-05-16 18:12:38] :  Succesfully loaded the model
+[2022-05-16 18:13:14] :  Succesfully loaded the model
+[2022-05-16 18:13:14] :  Succesfully loaded the model
+[2022-05-16 18:13:14] :  Prediction of Data Started
+[2022-05-16 18:13:14] :  Prediction for  Cluster0 completed successfully
+[2022-05-16 18:13:14] :  Prediction for  Cluster2 completed successfully
+[2022-05-16 18:13:14] :  Prediction for  Cluster1 completed successfully
+[2022-05-16 18:13:14] :  Prediction of Data completed
+[2022-05-16 18:13:14] :  Succesfully loaded the model
