@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, send_file
+from flask import Flask, render_template, request, send_file
 from flask_cors import  cross_origin
 import os
 import pandas as pd 
