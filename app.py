@@ -45,9 +45,7 @@ def predictRouteClient():
                 return "Please enter the csv File path"
 
     except Exception as e:
-        error = {"error": "Something went wrong!! Try again later!"}
-        error = {"error": e}
-        return render_template("404.html", error=error)
+        return f"Something went wrong {e}"
 
 if __name__ == "__main__":
     app.run()

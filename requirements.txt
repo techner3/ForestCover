@@ -8,5 +8,5 @@ flask-cors
 #mlflow
 pycaret
 #kneed
-SQLAlchemy
+#SQLAlchemy
 gunicorn
