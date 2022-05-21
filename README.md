@@ -1,4 +1,4 @@
-# ForestCover
+# Forest Cover Prediction
 ![my badge](https://img.shields.io/badge/Python-3-blue)
 ![my badge](https://img.shields.io/badge/Machine-Learning-brightgreen)
 ![my badge](https://img.shields.io/badge/Flask-App-green)
@@ -57,4 +57,4 @@ After prediction:
 # Points to Note : 
 
 * The app may take while to load ,Please bear with it 
-* Many of the libraries are commented in requirements.txt and libraries needed only for predicted has been installed to reduce slug size while deploying to heroku. 
+* Many of the libraries are commented in requirements.txt and libraries needed only for prediction has been installed to reduce slug size while deploying to heroku. 
