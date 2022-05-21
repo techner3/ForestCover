@@ -46,6 +46,8 @@ Dataset : [Link](https://archive.ics.uci.edu/ml/datasets/Covertype)
 
 # Preview of the Web App
 
+webApp : [Link](https://forestcover-webapp.herokuapp.com/)
+
 Home page :
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/58848985/169639173-b49ffd00-f3ac-443e-a9a7-c0d9e89ca450.png">
